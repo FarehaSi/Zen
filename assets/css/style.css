@@ -67,11 +67,10 @@ nav ul {
 /* hero video and cover text */ 
 
 #hero-video {
-    height: 600px;
+
     position: fixed;
+    width: 100%;
     top: 60px;
-    bottom: 60px;
-    min-width: 100%; 
 }
 
 #cover-text p {
@@ -89,16 +88,16 @@ nav ul {
     font-size: 120%;
     font-style: italic;
     
-    width: 800px;
+    width: 1000px;
     height: 100px;
 
     padding: 20px;
     padding-bottom: 2px;
 
-    background-color: rgba(77, 155, 184, .7);
+    background-color: rgba(77, 155, 184, .5);
 
-    bottom: 75px;
-    right: 350px;
+    bottom: 50px;
+    right: 250px;
 
     position: absolute;
 
