@@ -13,13 +13,53 @@ body {
 
 /* headings and logo */
 
+header {
+    background-color: #4D9BB8;
+}
+
 h1, h2{
     font-family: Quattrocento, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
+    color: #E6F4F1;
 }
 
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 250%;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 3px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+nav ul {
+    text-align: right;
+}
+
+#menu li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #E6F4F1;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #E6F4F1;
+}
+
+.active {
+    font-weight: bold;
+    border-bottom: 1px solid #E6F4F1;
 }
