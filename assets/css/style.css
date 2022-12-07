@@ -14,7 +14,7 @@ body {
 /* headings and logo */
 
 header {
-    background-color: #4D9BB8;
+    background-color: rgba(77, 155, 184, 1);
 }
 
 h1, h2{
@@ -37,7 +37,7 @@ h1, h2{
 }
 
 #menu, #logo {
-    line-height: 75px;
+    line-height: 60px;
 }
 
 nav ul {
@@ -63,3 +63,45 @@ nav ul {
     font-weight: bold;
     border-bottom: 1px solid #E6F4F1;
 }
+
+/* hero video and cover text */ 
+
+#hero-video {
+    height: 600px;
+    position: fixed;
+    top: 60px;
+    bottom: 60px;
+    min-width: 100%; 
+}
+
+#cover-text p {
+    color: #E6F4F1;
+}
+
+#author {
+    text-align: right;
+    padding-right: 25px;
+    font-style: normal;
+    
+}
+
+#cover-text {
+    font-size: 120%;
+    font-style: italic;
+    
+    width: 800px;
+    height: 100px;
+
+    padding: 20px;
+    padding-bottom: 2px;
+
+    background-color: rgba(77, 155, 184, .7);
+
+    bottom: 75px;
+    right: 350px;
+
+    position: absolute;
+
+    text-align: center;
+}
+
