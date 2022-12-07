@@ -17,11 +17,18 @@ header {
     background-color: rgba(77, 155, 184, 1);
 }
 
-h1, h2{
+h1 {
     font-family: Quattrocento, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #E6F4F1;
+}
+
+h2 {
+    font-family: Quattrocento, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgba(77, 155, 184, 1);
 }
 
 #logo {
@@ -105,3 +112,13 @@ nav ul {
     text-align: center;
 }
 
+/* sign-up form */
+
+.signup-form {
+    clear: left;
+    background: url('../images-videos/pexels-pixabay-289586.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    opacity: .9;
+}

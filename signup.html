@@ -26,20 +26,22 @@
             </ul>
         </nav>
     </header>
-    <section>
-        <div>
-            <video autoplay muted loop id="hero-video">
-                <source src="assets/images-videos/video.mp4" type="video/mp4"/>
-                
-            </video>
-        </div>
-        <div id="cover-text">
-            <p>“Health is not a mere absence of disease. It is a dynamic expression of life – in terms of how joyful, loving and enthusiastic you are.”</p>
-            <hr>
-            <p id="author">- Sri Sri Ravi Shankar</p>
-        </div>
+    <section class="signup-form">
+        <form method="POST" action="https://formdump.codeinstitute.net/">
+            <h2>Join the zen community!</h2>
+            
+            <label for="fname">First Name</label>
+            <input id="fname" type="text" name="first_name" required>
+
+            <label for="lname">Last Name</label>
+            <input id="lname" type="text" name="last_name" required>
+
+            <label for="email">Email Address</label>
+            <input id="email" type="email" name="email_address" required>
+            
+            <input type="submit" value="Submit">
+        </form>
     </section>
-    <section>About Us</section>
-    <footer>Social Media Links</footer>
+
 </body>
 </html>
