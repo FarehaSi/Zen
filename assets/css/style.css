@@ -11,7 +11,15 @@ body {
     font-weight: 300;
 }
 
-h1 {
+/* headings and logo */
+
+h1, h2{
     font-family: Quattrocento, sans-serif;
     text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
 }
