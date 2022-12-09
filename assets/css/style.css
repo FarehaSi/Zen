@@ -15,6 +15,8 @@ body {
 
 header {
     background-color: rgba(77, 155, 184, 1);
+    position: sticky;
+    top: 0;
 }
 
 h1 {
@@ -75,10 +77,10 @@ nav ul {
 /* hero video and cover text */ 
 
 #hero-video {
-
-    position: fixed;
     width: 100%;
     top: 60px;
+    max-height: 650px;
+    object-fit: fill;
 }
 
 #cover-text p {
@@ -110,6 +112,52 @@ nav ul {
     position: absolute;
 
     text-align: center;
+}
+
+/* about us*/
+
+#about-us {
+    height: 675px;
+    line-height: 35px;
+}
+
+#about-us-heading {
+    font-family: Quattrocento, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgba(77, 155, 184, 1);
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#left-about {
+    padding-left: 100px;
+    width: 40%;
+    float: left;
+    text-align: center;
+    margin-top: 120px;
+}
+
+#right-about {
+    padding-right: 100px;
+    width: 40%;
+    float: right;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#instructor-portrait {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 /* sign-up form */
