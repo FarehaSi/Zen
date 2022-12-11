@@ -204,11 +204,55 @@ nav ul {
 
 /* sign-up form */
 
-.signup-form {
+.signup-page {
     clear: left;
-    background: url('../images-videos/pexels-pixabay-289586.jpg');
+    background: url('../images-videos/beach.jpg');
     background-size: cover;
     background-position: center;
-    height: 900px;
-    opacity: .9;
+    height: 650px;
+}
+
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #E6F4F1;
+    background-color: rgba(0, 45, 69, .7);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.signup-form > h2 {
+    color: #E6F4F1;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #E6F4F1;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: rgba(77, 155, 184, 1);
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: rgba(77, 155, 184, 1);
+    color: #E6F4F1;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #E6F4F1;
+    color: rgba(77, 155, 184, 1);
 }
