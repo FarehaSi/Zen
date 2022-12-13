@@ -163,7 +163,7 @@ nav ul {
 /* benefits of yoga */
 
 #benefits {
-    height: 675px;
+    height: 600px;
     line-height: 35px;
     background-image: url('../images-videos/stones.jpg');
     background-size: 100%;
@@ -209,7 +209,7 @@ nav ul {
     background: url('../images-videos/beach.jpg');
     background-size: cover;
     background-position: center;
-    height: 650px;
+    height: 600px;
 }
 
 .signup-form {
@@ -255,4 +255,25 @@ nav ul {
 .join-button:hover {
     background-color: #E6F4F1;
     color: rgba(77, 155, 184, 1);
+}
+
+/* footer */
+
+footer {
+    height: 60px;
+    background-color: #002D45;
+}
+
+.socials {
+    text-align: center;
+}
+
+.socials > li {
+    display: inline;
+}
+
+.socials i {
+    font-size: 160%;
+    margin: 1%;
+    color: #E6F4F1;
 }
