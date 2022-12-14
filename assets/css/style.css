@@ -17,6 +17,7 @@ header {
     background-color: rgba(77, 155, 184, 1);
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 h1 {
@@ -69,18 +70,24 @@ nav ul {
     border-bottom: 1px solid #E6F4F1;
 }
 
-.active {
+/* .active {
     font-weight: bold;
     border-bottom: 1px solid #E6F4F1;
-}
+} */
 
 /* hero video and cover text */ 
 
+#hero-outer {
+    height:100vh;
+    position: relative;
+
+}
+
 #hero-video {
     width: 100%;
-    top: 60px;
-    max-height: 660px;
+    max-height: 100vh;
     object-fit: fill;
+
 }
 
 #cover-text p {
@@ -106,18 +113,19 @@ nav ul {
 
     background-color: rgba(77, 155, 184, .5);
 
-    bottom: 50px;
-    right: 250px;
-
     position: absolute;
 
     text-align: center;
+
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* about us*/
 
 #about-us {
-    height: 720px;
+    height:100vh;
     line-height: 35px;
 }
 
@@ -127,7 +135,7 @@ nav ul {
     letter-spacing: 3px;
     color: rgba(77, 155, 184, 1);
     text-align: center;
-    padding-top: 100px;
+    padding-top: 150px;
 
 }
 
@@ -160,35 +168,59 @@ nav ul {
     padding: 10px;
 }
 
+#about-us a {
+    text-decoration: none;
+    color: rgba(77, 155, 184, 1);
+}
+
+#left-about a:hover {
+    text-decoration: underline;
+}
+
 /* benefits of yoga */
 
-#benefits {
-    height: 600px;
+#benefits-outer {
+    height: 90vh;
     line-height: 35px;
     background-image: url('../images-videos/stones.jpg');
     background-size: 100%;
+    position: relative;
+}
+
+#benefits {
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:	rgba(230, 244, 241, .8);
+}
+
+#benefits-heading {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #002D45;
 }
 
 #left-benefits {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: solid;
-    background-color:	rgba(230, 244, 241, .7);
+    border: solid #002D45;
     text-align: center;
-    margin-top: 120px;
     line-height: 60px;
+    color: #002D45;
 }
 
 #right-benefits {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: solid;
-    background-color:	rgba(230, 244, 241, .7);
+    border: solid #002D45;
     text-align: center;
-    margin-top: 120px;
     line-height: 60px;
+    color: #002D45;
 }
 
 .flex-container-2 {
@@ -213,7 +245,7 @@ nav ul {
 }
 
 .signup-form {
-    margin: 150px 10% 0 0;
+    margin: 110px 10% 0 0;
     color: #E6F4F1;
     background-color: rgba(0, 45, 69, .7);
     max-width: 400px;
