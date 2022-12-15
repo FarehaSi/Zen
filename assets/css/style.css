@@ -321,3 +321,16 @@ footer {
         padding: 0;
     }
 }
+
+/* For medium screens sizes from 970px wide and down */
+
+@media screen and (max-width: 970px) {
+    
+    #menu{
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 10px;
+        line-height: 25px;
+    }
+}
