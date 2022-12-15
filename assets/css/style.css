@@ -11,7 +11,7 @@ body {
     font-weight: 300;
 }
 
-/* headings and logo */
+/* Headings and logo */
 
 header {
     background-color: rgba(77, 155, 184, 1);
@@ -40,7 +40,7 @@ h2 {
     margin-left: 25px;
 }
 
-/* navigation links */
+/* Navigation links */
 
 #menu {
     font-size: 120%;
@@ -70,12 +70,7 @@ nav ul {
     border-bottom: 1px solid #E6F4F1;
 }
 
-/* .active {
-    font-weight: bold;
-    border-bottom: 1px solid #E6F4F1;
-} */
-
-/* hero video and cover text */ 
+/* Hero video and cover text */ 
 
 #hero-outer {
     height:100vh;
@@ -122,7 +117,7 @@ nav ul {
     transform: translate(-50%, -50%);
 }
 
-/* about us*/
+/* About us*/
 
 #about-us {
     height:100vh;
@@ -177,7 +172,7 @@ nav ul {
     text-decoration: underline;
 }
 
-/* benefits of yoga */
+/* Benefits of yoga */
 
 #benefits-outer {
     height: 90vh;
@@ -234,7 +229,7 @@ nav ul {
     list-style-type: none;
 }
 
-/* sign-up form */
+/* Sign-up form */
 
 .signup-page {
     clear: left;
@@ -289,7 +284,7 @@ nav ul {
     color: rgba(77, 155, 184, 1);
 }
 
-/* footer */
+/* Footer */
 
 footer {
     height: 60px;
@@ -308,4 +303,21 @@ footer {
     font-size: 160%;
     margin: 1%;
     color: #E6F4F1;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1100px) {
+
+    #about-us{
+        width: 85%;
+        height: 1000px;
+        margin: 0 auto;
+    }
+
+    #left-about, #right-about{
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
 }
