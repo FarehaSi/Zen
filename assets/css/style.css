@@ -177,7 +177,7 @@ nav ul {
 #benefits-outer {
     height: 90vh;
     line-height: 35px;
-    background-image: url('../images-videos/stones.jpg');
+    background-image: url('../images/stones.jpg');
     background-size: 100%;
     position: relative;
 }
@@ -233,10 +233,10 @@ nav ul {
 
 .signup-page {
     clear: left;
-    background: url('../images-videos/beach.jpg');
+    background: url('../images/beach.jpg');
     background-size: cover;
     background-position: center;
-    height: 600px;
+    min-height: calc(100vh - 120px);
 }
 
 .signup-form {
