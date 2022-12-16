@@ -11,10 +11,14 @@ body {
     font-weight: 300;
 }
 
+p {
+    color: #002D45;
+}
+
 /* Headings and logo */
 
 header {
-    background-color: rgba(77, 155, 184, 1);
+    background-color: #086d88;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -31,7 +35,7 @@ h2 {
     font-family: Quattrocento, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: rgba(77, 155, 184, 1);
+    color: #086d88;
 }
 
 #logo {
@@ -106,7 +110,7 @@ nav ul {
     padding: 20px;
     padding-bottom: 2px;
 
-    background-color: rgba(77, 155, 184, .5);
+    background-color: rgba(8, 109, 136, .8);
 
     position: absolute;
 
@@ -115,6 +119,9 @@ nav ul {
     top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
 }
 
 /* About us*/
@@ -128,7 +135,7 @@ nav ul {
     font-family: Quattrocento, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: rgba(77, 155, 184, 1);
+    color: #086d88;
     text-align: center;
     padding-top: 150px;
 
@@ -165,7 +172,7 @@ nav ul {
 
 #about-us a {
     text-decoration: none;
-    color: rgba(77, 155, 184, 1);
+    color: #002D45;
 }
 
 #left-about a:hover {
@@ -190,19 +197,20 @@ nav ul {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color:	rgba(230, 244, 241, .8);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 #benefits-heading {
     padding-top: 50px;
     padding-bottom: 50px;
-    color: #002D45;
+    color: #086d88;
 }
 
 #left-benefits {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: solid #002D45;
+    border: solid #086d88;
     text-align: center;
     line-height: 60px;
     color: #002D45;
@@ -212,7 +220,7 @@ nav ul {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: solid #002D45;
+    border: solid #086d88;
     text-align: center;
     line-height: 60px;
     color: #002D45;
@@ -241,31 +249,32 @@ nav ul {
 
 .signup-form {
     margin: 110px 10% 0 0;
-    color: #E6F4F1;
-    background-color: rgba(0, 45, 69, .7);
+    color: #002D45;
+    background-color: #E6F4F1;
     max-width: 400px;
     position: absolute;
     left: 10%;
     padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .signup-form > h2 {
-    color: #E6F4F1;
+    color: #002D45;
     margin-bottom: 20px;
 }
 
 .text-input {
     background: transparent;
-    color: #E6F4F1;
+    color: #002D45;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px;
-    border: 1px solid #fafafa;
+    border: 1px solid #002D45;
     border-radius: 2px;
 }
 
 .text-input:hover {
-    border-color: rgba(77, 155, 184, 1);
+    border-color: #002D45;
 }
 
 .join-button {
@@ -274,7 +283,7 @@ nav ul {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: rgba(77, 155, 184, 1);
+    background-color: #086d88;
     color: #E6F4F1;
     display: block;
 }
@@ -288,7 +297,7 @@ nav ul {
 
 footer {
     height: 60px;
-    background-color: #002D45;
+    background-color: #086d88;
 }
 
 .socials {
