@@ -77,7 +77,7 @@ nav ul {
 /* Hero video and cover text */ 
 
 #hero-outer {
-    height:100vh;
+    /* height:100vh; */
     position: relative;
 
 }
@@ -127,7 +127,7 @@ nav ul {
 /* About us*/
 
 #about-us {
-    height:100vh;
+    /* height:100vh; */
     line-height: 35px;
 }
 
@@ -137,29 +137,22 @@ nav ul {
     letter-spacing: 3px;
     color: #086d88;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 100px;
 
 }
 
 .flex-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+
 }
 
-#left-about {
-    padding-left: 100px;
-    width: 40%;
-    float: left;
+.about-subcontainer {
+    width: 45%;
     text-align: center;
-    margin-top: 100px;
-}
-
-#right-about {
-    padding-right: 100px;
-    width: 40%;
-    float: right;
-    text-align: center;
-    margin-top: 50px;
 }
 
 #instructor-portrait {
@@ -182,7 +175,7 @@ nav ul {
 /* Benefits of yoga */
 
 #benefits-outer {
-    height: 90vh;
+    /* height: 90vh; */
     line-height: 35px;
     background-image: url('../images/stones.jpg');
     background-size: 100%;
