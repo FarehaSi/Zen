@@ -127,7 +127,6 @@ nav ul {
 /* About us*/
 
 #about-us {
-    /* height:100vh; */
     line-height: 35px;
 }
 
@@ -174,29 +173,16 @@ nav ul {
 
 /* Benefits of yoga */
 
-#benefits-outer {
-    /* height: 90vh; */
-    line-height: 35px;
-    background-image: url('../images/stones.jpg');
-    background-size: 100%;
-    position: relative;
-}
-
 #benefits {
-    position: absolute;
-    width: 1000px;
-    height: 500px;
-    top: 53%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color:	rgba(230, 244, 241, .8);
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    line-height: 60px;
 }
 
-#benefits-heading {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    color: #086d88;
+.flex-container-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 100px;
 }
 
 #left-benefits {
@@ -205,8 +191,9 @@ nav ul {
     border-radius: 50%;
     border: solid #086d88;
     text-align: center;
-    line-height: 60px;
     color: #002D45;
+    background-color: #E6F4F1;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 #right-benefits {
@@ -215,15 +202,9 @@ nav ul {
     border-radius: 50%;
     border: solid #086d88;
     text-align: center;
-    line-height: 60px;
     color: #002D45;
-}
-
-.flex-container-2 {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-around;
+    background-color: #E6F4F1;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 #benefits ul {
