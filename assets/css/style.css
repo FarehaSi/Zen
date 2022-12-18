@@ -40,14 +40,14 @@ h2 {
 
 #logo {
     float: left;
-    font-size: 250%;
+    font-size: 50px;
     margin-left: 25px;
 }
 
 /* Navigation links */
 
 #menu {
-    font-size: 120%;
+    font-size: 25px;
     letter-spacing: 3px;
 }
 
@@ -137,6 +137,7 @@ nav ul {
     color: #086d88;
     text-align: center;
     padding-top: 100px;
+    font-size: 35px;
 
 }
 
@@ -175,6 +176,12 @@ nav ul {
 
 #benefits {
     line-height: 60px;
+    background-image: url(../images/pexels-sheila-731224.jpg);
+    background-size: cover;
+}
+
+#benefits-header {
+    color: #002D45;
 }
 
 .flex-container-2 {
