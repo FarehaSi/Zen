@@ -157,7 +157,6 @@ nav ul {
 }
 
 #about-us a {
-    text-decoration: none;
     color: #002D45;
 }
 
@@ -291,28 +290,78 @@ footer {
 
 @media screen and (max-width: 1100px) {
 
-    #about-us{
-        width: 85%;
-        height: 1000px;
-        margin: 0 auto;
-    }
-
-    #left-about, #right-about{
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-}
-
-/* For medium screens sizes from 970px wide and down */
-
-@media screen and (max-width: 970px) {
-    
     #menu{
         clear: left;
         float: left;
-        margin-left: 30px;
+        margin-left: 25px;
         margin-bottom: 10px;
         line-height: 25px;
+        letter-spacing: 1px;
+    }
+}
+
+/* For medium screen sizes from 900px wide and down */
+
+@media screen and (max-width: 900px) {
+
+    .flex-container-2 {
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 50px;
+    }
+
+    #menu li {
+        margin-right: 5px;
+    }
+
+    #right-benefits {
+        margin-top: 50px;
+     }
+
+     footer {
+        height: 50px;
+    }
+}
+
+/* For medium screen sizes from 600px wide and down */
+
+@media screen and (max-width: 600px) {
+
+    #logo {
+        font-size: 40px;
+    }
+    
+    #menu {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    #menu li {
+        margin-right: 0;
+    }
+
+    #hero-video {
+        height: 100vh;
+        object-fit: fill;
+    }
+
+    .section-heading {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        padding: 10px;
+        margin-bottom:50px;
+    }
+
+    .about-subcontainer {
+        width: 90%;
+        padding-top: 50px;
+    }
+
+    .socials i {
+        margin: 2%;
     }
 }
