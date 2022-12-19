@@ -360,7 +360,7 @@ footer {
 
     #hero-video {
         height: 100vh;
-        object-fit: fill;
+        object-fit: cover;
     }
 
     #cover-text {
