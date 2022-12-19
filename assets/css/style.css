@@ -101,7 +101,6 @@ nav ul {
     text-align: right;
     padding-right: 25px;
     font-style: normal;
-    
 }
 
 #cover-text {
@@ -114,11 +113,10 @@ nav ul {
     background-color: rgba(8, 109, 136, .8);
     position: absolute;
     text-align: center;
-    top: 75%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-
 }
 
 /* About us*/
@@ -302,6 +300,13 @@ footer {
         line-height: 25px;
         letter-spacing: 1px;
     }
+
+#cover-text {
+    width: 800px;
+    height: 75px;
+    padding: 20px;
+    top: 65%;
+    left: 50%;
 }
 
 /* For medium screen sizes from 900px wide and down */
@@ -325,6 +330,15 @@ footer {
      footer {
         height: 50px;
     }
+
+    #cover-text {
+        width: 500px;
+        height: 80px;
+        padding: 20px;
+        top: 40%;
+        left: 50%;
+        padding-bottom: 50px;
+    }
 }
 
 /* For medium screen sizes from 600px wide and down */
@@ -347,6 +361,15 @@ footer {
     #hero-video {
         height: 100vh;
         object-fit: fill;
+    }
+
+    #cover-text {
+        width: 300px;
+        height: 120px;
+        padding: 20px;
+        top: 60%;
+        left: 50%;
+        padding-bottom: 50px;
     }
 
     .section-heading {
