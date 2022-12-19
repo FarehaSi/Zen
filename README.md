@@ -1,5 +1,4 @@
 # Zen Yoga Club 
----
 <a href="https://farehasi.github.io/Zen/" target="_blank">Zen Yoga Club</a> allows the owner to reach potential students and perhaps open the door to teaching online. The objective is to have an online presence where clients can sign up and book a class. The website provides an overview on what the club is about and how individuals can connect with the club. It is targeted at an adult audience that live busy lives and want to relax. Zen Yoga Club provides them a platform to do just that.
 <br>(Insert image)
 ## Features
