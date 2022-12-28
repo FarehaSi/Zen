@@ -396,6 +396,14 @@ footer {
         line-height: 10px;
     }
 
+    nav ul {
+        text-align: right;
+    }
+    
+    #menu li {
+        margin-right: 5px;
+    }
+
     #cover-text h2{
         font-size: 16px;
         line-height: 25px;
