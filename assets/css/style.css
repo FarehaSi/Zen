@@ -181,7 +181,7 @@ nav ul {
     padding: 100px;
 }
 
-#left-benefits {
+.benefits-subcontainer {
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -189,18 +189,6 @@ nav ul {
     text-align: center;
     color: #002D45;
     background-color: rgba(230, 244, 241, .8) ;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    border-radius: 5px;
-}
-
-#right-benefits {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    border: solid #086d88;
-    text-align: center;
-    color: #002D45;
-    background-color: rgba(230, 244, 241, .8);
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     border-radius: 5px;
 }
