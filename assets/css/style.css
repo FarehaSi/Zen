@@ -112,8 +112,14 @@ nav ul {
     bottom: 20%;
 }
 
-#cover-text p {
+#cover-text h2 {
     color: #E6F4F1;
+    text-transform: none;
+    letter-spacing: normal;
+    font-size: 20px;
+    font-family: Lora, sans-serif;
+    font-weight: 300;
+    line-height: 35px;
 }
 
 /* About us*/
@@ -390,7 +396,7 @@ footer {
         line-height: 10px;
     }
 
-    #cover-text {
+    #cover-text h2{
         font-size: 16px;
         line-height: 25px;
     }
@@ -412,5 +418,4 @@ footer {
     .signup-page {
         min-height: calc(100vh - 120px);
     }
-
 }
