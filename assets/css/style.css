@@ -282,12 +282,12 @@ footer {
 #fb-icon {
     margin-left: 2%;
 }
-    
-
 
 /* Media queries */
 
-@media screen and (max-width: 1100px) {
+/* For screen sizes from 1050px wide and down */
+
+@media screen and (max-width: 1050px) {
 
     #menu{
         clear: left;
@@ -298,50 +298,32 @@ footer {
         letter-spacing: 1px;
     }
 
-    /* #cover-text {
-        width: 800px;
-        height: 75px;
-        padding: 20px;
-        top: 65%;
-        left: 50%;} */
-
+    .signup-page {
+        min-height: calc(100vh - 155px);
+    }
 }
 
-/* For medium screen sizes from 900px wide and down */
+/* For screen sizes from 850px wide and down */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 850px) {
 
     .flex-container-2 {
-        flex-direction: column;
-        justify-content: space-between;
-        padding-top: 50px;
+        padding: 50px;
+        justify-content: space-around;
     }
-
-    #menu li {
-        margin-right: 5px;
-    }
-
-    #right-benefits {
-        margin-top: 50px;
-     }
 
      footer {
         height: 50px;
     }
 
-    /* #cover-text {
-        width: 500px;
-        height: 80px;
-        padding: 20px;
-        top: 40%;
-        left: 50%;
-        padding-bottom: 50px;
-    } */
+    .signup-page {
+        min-height: calc(100vh - 140px);
+    }
 }
 
-/* For small screen sizes from 600px wide and down */
+/* For screen sizes from 750px wide and down */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
 
     #logo {
         font-size: 40px;
@@ -361,15 +343,6 @@ footer {
         object-fit: cover;
     }
 
-    /* #cover-text {
-        width: 300px;
-        height: 120px;
-        padding: 20px;
-        top: 60%;
-        left: 50%;
-        padding-bottom: 50px;
-    } */
-
     .section-heading {
         padding-top: 50px;
         padding-bottom: 0;
@@ -386,7 +359,58 @@ footer {
         padding-top: 50px;
     }
 
+    .flex-container-2 {
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 50px;
+    }
+
+    #right-benefits {
+        margin-top: 50px;
+     }
+    
     .socials i {
         margin: 2%;
     }
+}
+
+/* For screen sizes from 400px wide and down */
+
+@media screen and (max-width: 400px) {
+    
+    #logo {
+        font-size: 30px;
+        margin-left: 10px;
+        line-height: 50px;
+    }
+    
+    #menu {
+        font-size: 11px;
+        margin-left: 10px;
+        line-height: 10px;
+    }
+
+    #cover-text {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    #benefits {
+        line-height: 35px;
+    }
+    
+    .benefits-subcontainer {
+        width: 250px;
+        height: 180px;
+    }
+
+    .signup-form {
+        margin-top: 40px;
+        left: 7%;
+    }
+
+    .signup-page {
+        min-height: calc(100vh - 120px);
+    }
+
 }
