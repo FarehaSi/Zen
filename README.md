@@ -4,7 +4,7 @@
 ## Features
 The site provides users with three key sections. Foremost, an ‘About Us’ section providing an overview of what the club is about and who runs it. Secondly, a ‘Benefits of Yoga’ section that entices users to join the club. The third section consists of a sign-up page where users can connect with the club. There also exists a contact menu to social links at the bottom of all the pages.
 ### Existing Features
-<h4>Navigation Bar</h4>
+#### Navigation Bar
 <ul><li>Featured across all sections and pages, the fully responsive navigation bar includes links to the Home Page, About Us, Benefits of Yoga and Sign Up page and is    identical in each page to allow for easy navigation.</li>
 <li>This navigation bar allows the user to easily navigate across the website across without having to revert back to the previous page.</li></ul>
 ![zen-nav](https://user-images.githubusercontent.com/116716786/210111041-5d826236-990d-4d4b-811d-ee39ab10e6ab.png)
