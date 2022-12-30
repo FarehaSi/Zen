@@ -7,21 +7,27 @@ The site provides users with three key sections. Foremost, an ‘About Us’ sec
 #### Navigation Bar
 <ul><li>Featured across all sections and pages, the fully responsive navigation bar includes links to the Home Page, About Us, Benefits of Yoga and Sign Up page and is    identical in each page to allow for easy navigation.</li>
 <li>This navigation bar allows the user to easily navigate across the website across without having to revert back to the previous page.</li></ul>
+
 ![zen-nav](https://user-images.githubusercontent.com/116716786/210111041-5d826236-990d-4d4b-811d-ee39ab10e6ab.png)
 <h4>The Landing Page</h4>
 <ul><li>The home page includes a captivating video with text overlay to allow the user to see exactly the concept of the club – yoga by the ocean.</li></ul>
+
 ![zen-home](https://user-images.githubusercontent.com/116716786/210111100-4719789b-a2da-42a6-b38e-68948ff400a6.png)
 <h4>'About Us' Section</h4>
 <ul><li>It informs the user of what the club is about and who runs it.</li></ul>
+
 ![zen-about](https://user-images.githubusercontent.com/116716786/210111133-5d6f463c-0286-41f5-807c-8fc445a5e17f.png)
 <h4>'Benefits of Yoga' Section</h4>
 <ul><li>This should encourage the user to consider yoga as their form of exercise. The user will see the value of signing up for the club.</li></ul>
+
 ![zen-benefits](https://user-images.githubusercontent.com/116716786/210111173-76a4d36d-3c01-4f62-bcfc-da841610d29f.png)
 <h4>The Footer</h4>
 <ul><li>The footer section includes links to the social media sites for Zen Yoga Club. The links will open in a new tab to allow easy navigationn.</li></ul>
+
 ![zen-footer](https://user-images.githubusercontent.com/116716786/210111211-0b90a7d5-71de-4afe-9627-63768f11ae70.png)
 <h4>'Sign-Up' Page</h4>
 <ul><li>This page will allow the user to get signed up to Zen Yoga Club. The user will be asked to submit their full name and email address.</li></ul>
+
 ![zen-signup](https://user-images.githubusercontent.com/116716786/210111267-a5e1e91f-c802-46e6-b952-6032f1170d4a.png)
 <h3>Features Left to Implement</h3>
 <ul><li>A ‘Reviews’ page of existing clients. This will bring more credibility to the website.</li></ul>
@@ -35,6 +41,7 @@ The website has been tested using chrome developer tools to emulate different sc
 <ul><li>No errors were returned when passing the HTML code through the W3C validator</li>
 <li>No errors were found when passing the CSS code through the Jigsaw validator</li>
 <li>Performance and accessibility were tested by running Lighthouse in Chrome DevTools and the results were positive.</li></ul>
+
 ![lighthouse](https://user-images.githubusercontent.com/116716786/210111743-4d8ebaf7-090b-433f-aa7e-1d4e6b5fbbab.png)
 <h2>Deployment</h2>
 The site was deployed to GitHub pages.
