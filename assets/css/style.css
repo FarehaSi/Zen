@@ -341,7 +341,7 @@ footer {
     }
 
     #menu li {
-        margin-right: 0;
+        margin-right: 15px;
     }
 
     #hero-video {
@@ -380,9 +380,9 @@ footer {
     }
 }
 
-/* For screen sizes from 400px wide and down */
+/* For screen sizes from 450px wide and down */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     
     #logo {
         font-size: 30px;
@@ -424,9 +424,9 @@ footer {
     }
 }
 
-/* For screen sizes from 300px wide and down */
+/* For screen sizes from 365px wide and down */
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 365px) {
 
     #menu {
         font-size: 11px;
