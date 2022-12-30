@@ -27,9 +27,9 @@ The site provides users with three key sections. Foremost, an ‘About Us’ sec
 <li>A ‘Reviews’ page of existing clients. This will bring more credibility to the website.</li>
 <h2>Testing</h2>
 The website has been tested using chrome developer tools to emulate different screen sizes. Media queries have been used for responsive CSS to ensure better user experience. For example, multi row layouts collapse into single columns on smaller screens.
-### Bugs
-#### Solved bugs
-  <li>The header, positioned sticky, did not not display as the home page was scrolled down on the background video positioned relative. This was resolved by giving the header a z-index property with the value of 1.</li>
+<h3>Bugs</h3>
+<h4>Solved bugs</h4>
+<li>The header, positioned sticky, did not not display as the home page was scrolled down on the background video positioned relative. This was resolved by giving the header a z-index property with the value of 1.</li>
 <h3>Validator Testing</h3>
   <li>No errors were returned when passing the HTML code through the W3C validator</li>
   <li>No errors were found when passing the CSS code through the Jigsaw validator</li>
