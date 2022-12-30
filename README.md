@@ -32,8 +32,8 @@ The website has been tested using chrome developer tools to emulate different sc
 <li>The header, positioned sticky, did not not display as the home page was scrolled down on the background video positioned relative. This was rectified by giving the header a z-index property with the value of 1.</li>
 <li>As media queries were applied to the menu in the header, the background colour property of the header did not function any longer. Giving the header a display property with the value of flow-root resolved the problem.</li>
 <h3>Validator Testing</h3>
-  <li>No errors were returned when passing the HTML code through the W3C validator</li>
-  <li>No errors were found when passing the CSS code through the Jigsaw validator</li>
+<ul><li>No errors were returned when passing the HTML code through the W3C validator</li>
+<li>No errors were found when passing the CSS code through the Jigsaw validator</li></ul>
 <h2>Deployment</h2>
 The site was deployed to GitHub pages.
 <br>The live link can be found here:  https://farehasi.github.io/Zen/
